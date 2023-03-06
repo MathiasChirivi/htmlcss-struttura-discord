@@ -97,7 +97,6 @@ nav{
         align-items: center;
         margin: 0 auto;
         padding: 3rem;
-
 }
 
 .bloccoGreen{
@@ -110,7 +109,7 @@ nav{
 
 .bloccoGreen{
         width: 1000px;
-        height: 480px;
+        height: 1000px;
         background-color: white;
         margin: 0 auto;
         display: flex;
@@ -121,4 +120,52 @@ nav{
     width: 1000px;
     min-height: 900px;
     border: dashed 1px;
+}
+
+.sezione4{
+    display: flex;
+    min-height: 575px;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #085691;
+    align-items: center;
+}
+
+.bloccoFooter{
+    width: 1000px;
+    height: 575px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.boxred{
+    width: 40%;
+    height: 570px;
+    background-color: salmon;
+    border: 1px dashed;
+
+}
+.columngreen{
+    background-color: #20b2aa;
+    width: 15%;
+    height: 570px;
+    border: 1px dashed;
+}
+
+.finalbox{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    background-color: #7fffd4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finallog, .button{
+    width: 65px;
+    height: 30px;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: salmon;
+    border: 1px dashed;
 }
