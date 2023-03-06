@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #add8e6 ;
+}
+
+nav{
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: dotted;
+}
+
+.boxed{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.alignItemsCenter{
+    align-items: center;
+}
+
+.contenitore{
+    background-color: blue;
+    min-height: 500px ;
+    display: flex;
+    align-items: center;
+}
+
+.box1{
+    background-color: pink;
+    width: 800px;
+    min-height: 400px;
+    margin: 0 auto;
+}
