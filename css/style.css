@@ -1,9 +1,13 @@
+/****************
+*****CSS*********
+****************/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/*header*/
 header{
     background-color: #add8e6 ;
     border: 1px dashed black;
@@ -51,6 +55,7 @@ nav{
     margin: 0 auto;
 }
 
+/*INIZIO MAIN*/
 .sezione1{
     background-color: white;
     min-height: 500px ;
@@ -91,6 +96,7 @@ nav{
     padding: 3rem;
 }
 
+/*ROW-REVERSE*/
 .reverse{
     display: flex;
     flex-direction: row-reverse;
@@ -99,19 +105,19 @@ nav{
 }
 
 .sezione3{
-        background-color: #d3d3d3;
-        min-height: 500px ;
-        display: flex;
-        align-items: center;
-        margin: 0 auto;
-        padding: 3rem;
+    background-color: #d3d3d3;
+    min-height: 500px ;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem;
 }
 
 .bloccoGreen{
-        width: 1000px;
-        height: 1000px;
-        margin: 0 auto;
-        display: flex;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .green{
@@ -151,10 +157,10 @@ nav{
     border: 1px dashed;
 }
 
+/*INIZIO FOOTER*/
 footer{
     background-color: #23272a;
     border: 2px solid white;
-    
 }
 
 hr{
