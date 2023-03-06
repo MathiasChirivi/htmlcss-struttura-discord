@@ -74,10 +74,51 @@ nav{
     border: dashed 1px;
 }
 
+.sezione2{
+    background-color: green;
+    min-height: 500px ;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
 .reverse{
     display: flex;
     flex-direction: row-reverse;
     background-color: lightgray;
     margin: 0 auto;
-    
+}
+
+.sezione3{
+        background-color: white;
+        min-height: 500px ;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        padding: 3rem;
+
+}
+
+.bloccoGreen{
+        width: 1200px;
+        height: 1000px;
+        background-color: white;
+        margin: 0 auto;
+        display: flex;
+}
+
+.bloccoGreen{
+        width: 1000px;
+        height: 480px;
+        background-color: white;
+        margin: 0 auto;
+        display: flex;
+}
+
+.green{
+    background-color: green;
+    width: 1000px;
+    min-height: 900px;
+    border: dashed 1px;
 }
